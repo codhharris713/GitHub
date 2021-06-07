@@ -1,0 +1,30 @@
+/*===================================================
+    Authour: Cody Harris
+==========================================*/
+html {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100%;
+}
+
+.container form {
+    font-size: 10px;
+    outline: none;
+    color: seagreen;
+    padding: 12px 12px;
+    width: 70%;
+    border: 8px solid black;
+    margin: 2% auto;
+    border-radius: 9px ;    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
