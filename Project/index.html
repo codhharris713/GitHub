@@ -3,24 +3,19 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Trip To Alpha Centauri</title>
-
+	<title>Get Me Off This World</title>
+	<link rel="stylesheet" href="./css/shared.css">
+	<link rel="stylesheet" href="./css/animations.css">
 </head>
-
 <body>
+	
 	<!-- Nav -->
-	<div>
-		<div>
-			<ul>
-				<a href="#home" id="link">
-					<li>HOME</li>
-				</a>
-				<a href="#gallery" id="link">
-					<li>Gallery</li>
-				</a>
-				<a href="#contact" id="link">
-					<li>Reservations</li>
-				</a>
+	<div class="wrap">
+		<div class="menu-container">
+			<ul class="menu">
+				<a href="#home"><li>HOME</li></a>
+				<a href="#gallery"><li>GALLERY</li></a>
+				<a href="#contact"><li>RESERVATIONS</li></a>
 			</ul>
 		</div>
 	</div>
@@ -28,25 +23,26 @@
 
 	<!-- Home -->
 	<div id="home">
-		<div>
-			<div>
-				<span>Aplha Centauri</span>
+		<div class="container">
+			<div class="text-center">
+				<span class="head-main">Alpha Centauri</span>
 			</div>
 		</div>
 	</div>
+	
 	<!-- End Home -->
 
 	<!-- Gallery -->
-	<section>
-		<div id="gallery">
+	<section id="gallery"></section>
+		<div class="container">
 			<h1>Gallery</h1>
-			<div>
+			<div class="flex-container">
 
 				<!-- Photo-Container 1 -->
-				<div>
-					<div>
+				<div class="photo-container">
+					<div class="photo">
 						<img src="./images/thumb/thumbnail_1.jpg" alt="Alpha Centauri AB">
-						<div>
+						<div class="photo-overlay">
 							<h3>Click to Enlarge</h3>
 							<p>Alpha Centauri AB is the bright star to the left, which forms a triple star system with
 								Proxima Centauri, circled in red. The bright star system to the right is Beta Centauri.
@@ -57,10 +53,10 @@
 				<!-- End Photo-Container 1 -->
 
 				<!-- Photo-Container 2 -->
-				<div>
-					<div>
+				<div class="photo-container">
+					<div class="photo">
 						<img src="./images/thumb/thumbnail_2.jpg" alt="Constellation of Centaurus">
-						<div>
+						<div class="photo-overlay">
 							<h3>Click to Enlarge</h3>
 							<p>Alpha Centauri is the brightest object in the constellation of Centaurus</p>
 						</div>
@@ -69,10 +65,10 @@
 				<!-- End Photo-Container 2 -->
 
 				<!-- Photo-Container 3 -->
-				<div>
-					<div>
+				<div class="photo-container">
+					<div class="photo">
 						<img src="./images/thumb/thumbnail_3.jpg" alt="View of Alpha Centauri">
-						<div>
+						<div class="photo-overlay">
 							<h3>Click to Enlarge</h3>
 							<p>View of Alpha Centauri from the Digitized Sky Survey 2</p>
 						</div>
@@ -81,10 +77,10 @@
 				<!-- End Photo-Container 3 -->
 
 				<!-- Photo-Container 4 -->
-				<div>
-					<div>
+				<div class="photo-container">
+					<div class="photo">
 						<img src="./images/thumb/thumbnail_4.jpg" alt="Space Station Reaction 189">
-						<div>
+						<div class="photo-overlay">
 							<h3>Click to Enlarge</h3>
 							<p>Outer Solar System Space Station Reaction 189</p>
 						</div>
@@ -93,10 +89,10 @@
 				<!-- End Photo-Container 4 -->
 
 				<!-- Photo-Container 5 -->
-				<div>
-					<div>
+				<div class="photo-container">
+					<div class="photo">
 						<img src="./images/thumb/thumbnail_5.jpg" alt="launch">
-						<div>
+						<div class="photo-overlay">
 							<h3>Click to Enlarge</h3>
 							<p>Launch of flight 201-doG</p>
 						</div>
@@ -105,10 +101,10 @@
 				<!-- End Photo-Container 5 -->
 
 				<!-- Photo-Container 6 -->
-				<div>
-					<div>
+				<div class="photo-container">
+					<div class="photo">
 						<img src="./images/thumb/thumbnail_6.jpg" alt="sleeping chambers">
-						<div>
+						<div class="photo-overlay">
 							<h3>Click to Enlarge</h3>
 							<p>Cyro-Sleep Chambers</p>
 						</div>
@@ -117,10 +113,10 @@
 				<!-- End Photo-Container 6 -->
 
 				<!-- Photo-Container 7 -->
-				<div>
-					<div>
+				<div class="photo-container">
+					<div class="photo">
 						<img src="./images/thumb/thumbnail_7.jpg" alt="Main deck">
-						<div>
+						<div class="photo-overlay">
 							<h3>Click to Enlarge</h3>
 							<p>Main deck of USS Spaceball One</p>
 						</div>
@@ -129,10 +125,10 @@
 				<!-- End Photo-Container 7 -->
 
 				<!-- Photo-Container 8 -->
-				<div>
-					<div>
+				<div class="photo-container">
+					<div class="photo">
 						<img src="./images/thumb/thumbnail_8.jpg" alt="crew loading">
-						<div>
+						<div class="photo-overlay">
 							<h3>Click to Enlarge</h3>
 							<p>Crew loading USS Spaceball One</p>
 						</div>
@@ -141,10 +137,10 @@
 				<!-- End Photo-Container 8 -->
 
 				<!-- Photo-Container 9 -->
-				<div>
-					<div>
+				<div class="photo-container">
+					<div class="photo">
 						<img src="./images/thumb/thumbnail_9.jpg" alt="warp drive gate">
-						<div>
+						<div class="photo-overlay">
 							<h3>Click to Enlarge</h3>
 							<p>Warp Drive Gate</p>
 						</div>
@@ -157,26 +153,27 @@
 	<!-- End Gallery-->
 
 	<!-- RSVP -->
-	<section>
-		<div id="contact">
-			<div>
-				<h1>Reservations</h1>
-				<div>
+	<section id="contact">
+		<div class="container">
+			<div class="heading-padding">
+				<h1 class="heading-padding">Reservations</h1>
+				<div class="reservation">
 					<h2><span>Leave the world behind!</span>
 						<br />Get going on your new life!
 					</h2>
-					<p>
+					<p class="rsvp-text">
 						Please provide us with your basic contact information.
 					</p>
-					<div>
+					<div class="form-rsvp">
 						<form action="" method="post">
-							<input class="rsvp" type="text" value="First Name">
-							<input class="rsvp" type="text" value="Last Name">
-							<input class="rsvp" type="text" value="Email Address">
-							<input class="rsvp" type="text" value="Phone Number">
+							<input class="rsvp" type="text" value="" placeholder="First Name">
+							<input class="rsvp" type="text" value="" placeholder="Last Name">
+							<input class="rsvp" type="text" value="" placeholder="Email Address">
+							<input class="rsvp" type="text" value="" placeholder="Phone Number">
 							<div class="form-spacer">
+								<label class="terms">Terms and Conditions</label>
 							</div>
-							<div>
+							<div class="submit">
 								<input type="submit" value="Submit">
 							</div>
 						</form>
@@ -188,7 +185,7 @@
 	<!-- End RSVP -->
 
 	<!-- Footer -->
-	<div>
+	<div id="footer">
 		www.triptoalphacentauri.space &nbsp;|&nbsp; &copy; 2021
 	</div>
 	<!-- End Footer -->
