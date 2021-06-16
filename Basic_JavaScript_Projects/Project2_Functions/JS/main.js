@@ -6,5 +6,6 @@ function another_function() { //defined and named function
 function myFunction() { //declared function
     var sentence = "I am learning"; //createtd variable called sentence assign value to I am learing
     sentence += "a lot from this book!"; //used += operator to concatenate a string 
-    document.getElementById("Concatnate").innerHTML = sentence;
+    document.getElementById("Concatenate").innerHTML = sentence;
 }
+
