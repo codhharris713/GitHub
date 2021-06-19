@@ -9,3 +9,9 @@ function myFunction() { //declared function
     document.getElementById("Concatenate").innerHTML = sentence;
 }
 
+var x = one_function(4, 3);
+document.getElementById("demo").innerHTML = x;
+function one_function(a, b) {
+    return a * b;
+}
+
