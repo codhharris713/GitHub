@@ -1,3 +1,4 @@
+function my_Dictionary() {
 var person = { // create object
     firstName: "Cody",
     lastName: "Harris",
@@ -5,12 +6,10 @@ var person = { // create object
     eyeColor: "green"
 };
 
-function something() {
-document.getElementById ("Dictionary").innerHTML = //Display some data from the object
-person.firstName + "is" + person.age + "years old.";
-}
+delete person.firstName;
+document.getElementById("Dictionary").innerHTML = person.firstName;
 
-function something() {
-delete person.Cody; 
-document.getElementById ("Dictionary").innerHTML = person.Cody; // delete key
-}
+document.getElementById("Dictionary").innerHTML = person.firstName;
+};
+
+
