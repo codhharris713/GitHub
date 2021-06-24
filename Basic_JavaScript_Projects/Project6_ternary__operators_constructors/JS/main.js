@@ -8,7 +8,7 @@ function Ride_Function() {
 function Vote_Function() { // use of a conditional operator (ternary)
     var Age, Can_Vote;
     Age = document.getElementById("Age").value;
-    Can_Vote = (Age < 18) ? "You are not old enough to vote":"You are old enough "; // the ternary operator is ?
+    Can_Vote = (Age < 18) ? "You are not old enough":"You are old enough "; // the ternary operator is ?
     document.getElementById("voting").innerHTML = Can_Vote + "to vote.";
 }
 
