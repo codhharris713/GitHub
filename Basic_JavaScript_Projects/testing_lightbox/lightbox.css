@@ -1,11 +1,12 @@
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   margin: 0;
 }
 
-* {
+*{
   box-sizing: border-box;
 }
+
 
 
 .row > .column {
@@ -21,7 +22,7 @@ body {
 /* Create four equal columns that floats next to eachother */
 .column {
   float: left;
-  width: 50%;
+  width: 25%;
 }
 
 /* The Modal (background) */
